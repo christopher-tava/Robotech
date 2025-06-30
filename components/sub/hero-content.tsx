@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            IEEE @ GT's Annual Hackathon
           </h1>
         </motion.div>
 
@@ -37,7 +37,7 @@ export const HeroContent = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               the best
             </span>{" "}
-            project experience.
+            hackathon experience.
           </span>
         </motion.div>
 
@@ -45,8 +45,13 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Join IEEE@GT as the Robotech Hackathon returns for 2026!
+          Tenative Dates: January 23-25th, 2026.{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Register now
+          </span>{" "}
+          to secure your spot and be part of the most exciting hackathon of the
+          year! 
         </motion.p>
 
         <motion.a
