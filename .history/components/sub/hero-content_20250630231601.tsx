@@ -54,16 +54,12 @@ export const HeroContent = () => {
           year! 
         </motion.p>
 
-       <motion.a
-        variants={slideInFromLeft(1)}
-        className="py-2 text-center cursor-pointer rounded-lg max-w-[200px] bg-yellow-500 text-black"
-        href="
-https://youtu.be/dQw4w9WgXcQ"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Apply Now
-      </motion.a>
+        <motion.a
+          variants={slideInFromLeft(1)}
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        >
+          Learn more
+        </motion.a>
       </div>
 
       <motion.div
