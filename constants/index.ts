@@ -92,7 +92,7 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com/gt_iee",
   },
 ] as const;
 
@@ -306,19 +306,19 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Become Sponsor - See Our Website",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://sites.gatech.edu/ece-ieee/",
       },
       {
-        name: "Learning about me",
+        name: "Contact IEEE",
         icon: null,
-        link: "https://example.com",
+        link: "gatechiee@gmail.com",
       },
       {
-        name: "Contact Me",
+        name: "Contact Event Director",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "ctava3@gatech.edu",
       },
     ],
   },
@@ -348,5 +348,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/christopher-tava/robotech-website",
 };
