@@ -282,7 +282,7 @@ export const FOOTER_DATA = [
       },
       {
         name: "GT Engage",
-        icon: RxGithubLogo,
+        icon: '/gt.png',
         link: "https://gatech.campuslabs.com/engage/organization/institute-of-electrical-and-electronics-engineers",
       },
     ],

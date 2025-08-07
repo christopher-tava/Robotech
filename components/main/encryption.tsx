@@ -13,19 +13,23 @@ export const Encryption = () => {
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
         >
-          Performance{" "}
+          About{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             &
           </span>{" "}
-          security.
+          Mission.
         </motion.div>
       </div>
+
+      <div className="cursive text-[20px] font-medium text-center text-gray-300">
+          GOALS AND MORE....MORE INFORMATION HERE.
+        </div>
 
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
-            src="/lock-top.png"
-            alt="Lock top"
+            src="/IEEE_LOGO.png"
+            alt="IEEE Logo"
             width={50}
             height={50}
             className="translate-y-5 transition-all duration-200 group-hover:translate-y-11"
@@ -40,13 +44,13 @@ export const Encryption = () => {
         </div>
 
         <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#7042F88B] opacity-[0.9]">
-          <h1 className="Welcome-text text-[12px]">Encryption</h1>
+          <h1 className="Welcome-text text-[12px]">Robotech 2025</h1>
         </div>
       </div>
 
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption.
+        <div className="cursive text-[60px] font-medium text-center text-gray-300">
+          FAQ.
         </div>
       </div>
 
