@@ -71,7 +71,7 @@ https://youtu.be/dQw4w9WgXcQ"
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="gt.png"
+          src="Robotech/app/IEEE_LOGO.png"
           alt="logo"
           height={650}
           width={650}
