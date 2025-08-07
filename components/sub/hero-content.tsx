@@ -71,8 +71,8 @@ https://youtu.be/dQw4w9WgXcQ"
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/hero-bg.svg"
-          alt="work icons"
+          src="gt.png"
+          alt="logo"
           height={650}
           width={650}
           draggable={false}

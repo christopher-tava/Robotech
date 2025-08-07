@@ -273,22 +273,17 @@ export const PROJECTS = [
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Join IEEE @ GT",
     data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://youtube.com",
+      },
+      {
+        name: "GT Engage",
+        icon: RxGithubLogo,
+        link: "https://gatech.campuslabs.com/engage/organization/institute-of-electrical-and-electronics-engineers",
       },
     ],
   },
@@ -306,7 +301,7 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor - See Our Website",
+        name: "Become a Sponsor",
         icon: null,
         link: "https://sites.gatech.edu/ece-ieee/",
       },
