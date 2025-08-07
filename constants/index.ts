@@ -280,11 +280,6 @@ export const FOOTER_DATA = [
         icon: RxDiscordLogo,
         link: "https://youtube.com",
       },
-      {
-        name: "GT Engage",
-        icon: '/gt.png',
-        link: "https://gatech.campuslabs.com/engage/organization/institute-of-electrical-and-electronics-engineers",
-      },
     ],
   },
   {
