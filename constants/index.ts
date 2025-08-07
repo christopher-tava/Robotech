@@ -251,7 +251,7 @@ export const PROJECTS = [
   {
     title: "January 23rd, 2026",
     description:
-      "Check-in @ 4pm - 6pm.\nOpening Ceremony @ 6pm\nDinner @ 7:30pm\nHacking begins @ 8pm",,
+      "Check-in @ 4pm - 6pm.\nOpening Ceremony @ 6pm\nDinner @ 7:30pm\nHacking begins @ 8pm",
     image: "/projects/project-1.png",
     link: "https://example.com",
   },
