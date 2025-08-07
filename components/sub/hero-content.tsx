@@ -62,7 +62,7 @@ https://youtu.be/dQw4w9WgXcQ"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Apply Now
+        APPLY HERE
       </motion.a>
       </div>
 
