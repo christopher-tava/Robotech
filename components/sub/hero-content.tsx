@@ -56,9 +56,9 @@ export const HeroContent = () => {
 
        <motion.a
         variants={slideInFromLeft(1)}
-        className="py-2 text-center cursor-pointer rounded-lg max-w-[200px] bg-yellow-500 text-black"
+        className="py-2 text-center cursor-pointer rounded-lg max-w-[500px] bg-yellow-500 text-black"
         href="
-https://youtu.be/dQw4w9WgXcQ"
+https://docs.google.com/forms/d/e/1FAIpQLScvzoEXp2FqPGn_8RbkU9X6wBSFUWS4iv_9fDyJt4bUhEChiA/viewform?usp=dialog"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -73,8 +73,8 @@ https://youtu.be/dQw4w9WgXcQ"
         <Image
           src="/IEEE_LOGO.png"
           alt="logo"
-          height={650}
-          width={650}
+          height={600}
+          width={600}
           draggable={false}
           className="select-none"
         />
