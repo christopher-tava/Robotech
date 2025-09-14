@@ -8,7 +8,19 @@ import {
 } from "react-icons/rx";
 
 export const SKILL_DATA = [
-  
+    {
+    skill_name: "Go",
+    image: "go.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "JavaScript",
+    image: "javascript.png",
+    width: 60,
+    height: 60,
+  },
+
 ] as const;
 
 export const SOCIALS = [
@@ -20,15 +32,51 @@ export const SOCIALS = [
 ] as const;
 
 export const FRONTEND_SKILL = [
-  
+    {
+    skill_name: "Go",
+    image: "go.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "JavaScript",
+    image: "javascript.png",
+    width: 60,
+    height: 60,
+  },
+
 ] as const;
 
 export const BACKEND_SKILL = [
-  
+    {
+    skill_name: "Go",
+    image: "go.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "JavaScript",
+    image: "javascript.png",
+    width: 60,
+    height: 60,
+  },
+
 ] as const;
 
 export const FULLSTACK_SKILL = [
-  
+    {
+    skill_name: "Go",
+    image: "go.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "JavaScript",
+    image: "javascript.png",
+    width: 60,
+    height: 60,
+  },
+
 ] as const;
 
 export const OTHER_SKILL = [
