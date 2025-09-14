@@ -46,7 +46,7 @@ export const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           Join IEEE@GT as the Robotech Hackathon returns for 2026!
-          Tenative Dates: January 23-25th, 2026.{" "}
+           January 23-25th, 2026.{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Register now
           </span>{" "}
