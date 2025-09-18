@@ -20,9 +20,8 @@ export const Encryption = () => {
       <div className="flex flex-col items-center text-center px-6 max-w-2xl mx-auto py-20">
         <h1 className="text-4xl font-medium text-white mb-4">
           About{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             &
-          </span>{" "}
+
           Mission.
         </h1>
 
