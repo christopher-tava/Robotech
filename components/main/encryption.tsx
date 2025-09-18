@@ -49,9 +49,7 @@ export const Encryption = () => {
           environmentally friendly, and we will donate extra food at the end of the
           event.
         </p>
-      
-
-      
+      </div>
     </div>
   );
 };
