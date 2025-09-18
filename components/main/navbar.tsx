@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { LINKS, NAV_LINKS } from "@/constants";
+import { LINKS, NAV_LINKS, SOCIALS } from "@/constants";
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -45,7 +45,19 @@ export const Navbar = () => {
           </div>
         </div>
 
-        
+        {/* Social Icons (Web) */}
+        <div className="hidden md:flex flex-row gap-5">
+          {SOCIALS.map(({ link, name, icon: Icon }) => (
+            <Link
+              href={link}
+              target="_blank"
+              rel="noreferrer noopener"
+              key={name}
+            >
+              <Icon className="h-6 w-6 text-white" />
+            </Link>
+          ))}
+        </div>
 
         {/* Hamburger Menu */}
         <button
@@ -83,7 +95,18 @@ export const Navbar = () => {
           </div>
 
           {/* Social Icons */}
-          
+          <div className="flex justify-center gap-6 mt-6">
+            {SOCIALS.map(({ link, name, icon: Icon }) => (
+              <Link
+                href={link}
+                target="_blank"
+                rel="noreferrer noopener"
+                key={name}
+              >
+                <Icon className="h-8 w-8 text-white" />
+              </Link>
+            ))}
+          </div>
         </div>
       )}
     </div>

@@ -7,7 +7,33 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
+export const SKILL_DATA = [
+  {
+    skill_name: "HTML 5",
+    image: "/tech/html.png",
+    width: 80,
+    height: 80,
+  },
+  // Add more skill data objects as needed
+];
 
+export const FRONTEND_SKILL = [
+  {
+    skill_name: "HTML 5",
+    image: "/tech/html.png",
+    width: 80,
+    height: 80,
+  },
+];
+
+export const BACKEND_SKILL = [
+  {
+    skill_name: "HTML 5",
+    image: "/tech/html.png",
+    width: 80,
+    height: 80,
+  },
+];
 
 export const PROJECTS = [
   {
