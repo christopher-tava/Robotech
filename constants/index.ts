@@ -8,32 +8,85 @@ import {
 } from "react-icons/rx";
 
 export const SKILL_DATA = [
-  {
-    skill_name: "HTML 5",
-    image: "/tech/html.png",
-    width: 80,
-    height: 80,
+    {
+    skill_name: "Go",
+    image: "gt.png",
+    width: 60,
+    height: 60,
   },
-  // Add more skill data objects as needed
-];
+  {
+    skill_name: "JavaScript",
+    image: "javascript.png",
+    width: 60,
+    height: 60,
+  },
+
+] as const;
+
+export const SOCIALS = [
+  {
+    name: "Instagram",
+    icon: RxInstagramLogo,
+    link: "https://instagram.com/gt_ieee",
+  },
+] as const;
 
 export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML 5",
-    image: "/tech/html.png",
-    width: 80,
-    height: 80,
+    {
+    skill_name: "Go",
+    image: "/gt.png",
+    width: 60,
+    height: 60,
   },
-];
+  {
+    skill_name: "JavaScript",
+    image: "/gt.png",
+    width: 60,
+    height: 60,
+  },
+
+] as const;
 
 export const BACKEND_SKILL = [
-  {
-    skill_name: "HTML 5",
-    image: "/tech/html.png",
-    width: 80,
-    height: 80,
+    {
+    skill_name: "Go",
+    image: "/gt.png",
+    width: 60,
+    height: 60,
   },
-];
+  {
+    skill_name: "JavaScript",
+    image: "/gt.png",
+    width: 60,
+    height: 60,
+  },
+
+] as const;
+
+export const FULLSTACK_SKILL = [
+    {
+    skill_name: "Go",
+    image: "/gt.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "JavaScript",
+    image: "/gt.png",
+    width: 60,
+    height: 60,
+  },
+
+] as const;
+
+export const OTHER_SKILL = [
+  {
+    skill_name: "Go",
+    image: "gt.png",
+    width: 60,
+    height: 60,
+  },
+] as const;
 
 export const PROJECTS = [
   {
