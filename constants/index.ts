@@ -34,13 +34,13 @@ export const SOCIALS = [
 export const FRONTEND_SKILL = [
     {
     skill_name: "Go",
-    image: "go.png",
+    image: "/icon1.png",
     width: 60,
     height: 60,
   },
   {
     skill_name: "JavaScript",
-    image: "javascript.png",
+    image: "/icon2.png",
     width: 60,
     height: 60,
   },
@@ -50,13 +50,13 @@ export const FRONTEND_SKILL = [
 export const BACKEND_SKILL = [
     {
     skill_name: "Go",
-    image: "go.png",
+    image: "/icon2.png",
     width: 60,
     height: 60,
   },
   {
     skill_name: "JavaScript",
-    image: "javascript.png",
+    image: "/icon2.png",
     width: 60,
     height: 60,
   },
@@ -66,13 +66,13 @@ export const BACKEND_SKILL = [
 export const FULLSTACK_SKILL = [
     {
     skill_name: "Go",
-    image: "go.png",
+    image: "/icon1.png",
     width: 60,
     height: 60,
   },
   {
     skill_name: "JavaScript",
-    image: "javascript.png",
+    image: "/icon1.png",
     width: 60,
     height: 60,
   },
@@ -82,7 +82,7 @@ export const FULLSTACK_SKILL = [
 export const OTHER_SKILL = [
   {
     skill_name: "Go",
-    image: "go.png",
+    image: "icon1.png",
     width: 60,
     height: 60,
   },
