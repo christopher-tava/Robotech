@@ -8,25 +8,38 @@ export const Projects = () => {
       id="projects"
       className="flex flex-col items-center justify-center py-20"
     >
-      <h1 className="text-lg text-gray-200 mb-10">
-        Cooper from the movie Interstellar wisely summed human fascination with space when he
-          declared, “Mankind was born on Earth. It was never meant to die here.”
-          The next century will undoubtedly see exciting innovations in space
-          exploration as a result of creative engineering solutions. As such, IEEE @
-          GT challenges you to build your own lunar space robot to demonstrate your
-          creative approach to navigating space. The competition will focus on terrain
-          navigation and interaction, including but not limited to obstacle avoidance,
-          article placement, and potential human-robot collaboration.
-          
-          Tracks:
-          • Autonomous — robot is making decisions itself  
-          • Controller/Communication — team builds an RF or wired controller to operate the robot  
-          • Beginner — open opportunity for younger/inexperienced students to participate
-        
-      </h1>
-       <h1 className="text-4xl font-medium text-white mb-4">
-          Schedule of Events
-        </h1>
+            <p className="text-base text-gray-200 mb-10 leading-relaxed max-w-3xl text-center px-6">
+        Cooper from the movie <em>Interstellar</em> wisely summed human fascination
+        with space when he declared, “Mankind was born on Earth. It was never meant
+        to die here.” The next century will undoubtedly see exciting innovations in
+        space exploration as a result of creative engineering solutions. As such,
+        IEEE @ GT challenges you to build your own lunar space robot to demonstrate
+        your creative approach to navigating space. The competition will focus on
+        terrain navigation and interaction, including but not limited to obstacle
+        avoidance, article placement, and potential human-robot collaboration.
+        <br />
+        <br />
+        <strong>Tracks:</strong>
+        <ul className="list-disc list-inside text-gray-200 mt-2 text-left">
+          <li>
+            <strong>Autonomous</strong> — robot makes decisions itself
+          </li>
+          <li>
+            <strong>Controller/Communication</strong> — team builds an RF or wired
+            controller to operate the robot
+          </li>
+          <li>
+            <strong>Beginner</strong> — open opportunity for younger or
+            inexperienced students to participate
+          </li>
+        </ul>
+      </p>
+
+      {/* Section title */}
+      <h2 className="text-4xl font-medium text-white mb-4">
+        Schedule of Events
+      </h2>
+
       
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         {PROJECTS.map((project) => (
