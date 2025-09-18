@@ -38,7 +38,9 @@ export const Projects = () => {
   <strong>Which meals do I get for free as a competitor?</strong><br />
   A Friday evening snack; breakfast, lunch and dinner on Saturday; and Sunday breakfast.
 </p>
-
+<br />
+<br />
+<br />
       
 
       <h2 className="text-4xl font-medium text-white mb-4">
