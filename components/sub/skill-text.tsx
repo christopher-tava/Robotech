@@ -26,7 +26,7 @@ export const SkillText = () => {
         variants={slideInFromLeft(0.5)}
         className="text-[60px] text-white font-medium mt-[10px] text-center mb-[15px]"
       >
-        Robotech Hackathon Sponsors 2026 - TBA
+        Robotech Hackathon Sponsors and Community Partners...TBA
       </motion.div>
 
     </div>

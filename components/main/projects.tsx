@@ -8,18 +8,22 @@ export const Projects = () => {
       id="projects"
       className="flex flex-col items-center justify-center py-20"
     >
+      
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        The Robotech Hackathon is the annual robotics hackathon run by the IEEE
-          student chapter at Georgia Tech. Within the allotted 36 hours, teams of
-          four individuals race to design, build, and test a robot to complete a
-          set of engineering goals and competition tasks. Excellent collaboration
-          and an element of strategy will be required to maximize a team’s score.
-          Teams compete in one of several tracks differentiated by competition focus
-          and experience. Products are judged by a panel of judges on the last day
-          of the hackathon.
-      </h1>
-
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+        Cooper from the movie Interstellar wisely summed human fascination with space when he
+          declared, “Mankind was born on Earth. It was never meant to die here.”
+          The next century will undoubtedly see exciting innovations in space
+          exploration as a result of creative engineering solutions. As such, IEEE @
+          GT challenges you to build your own lunar space robot to demonstrate your
+          creative approach to navigating space. The competition will focus on terrain
+          navigation and interaction, including but not limited to obstacle avoidance,
+          article placement, and potential human-robot collaboration.
+          
+          Tracks:
+          • Autonomous — robot is making decisions itself  
+          • Controller/Communication — team builds an RF or wired controller to operate the robot  
+          • Beginner — open opportunity for younger/inexperienced students to participate
+        
         Schedule of Events
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">

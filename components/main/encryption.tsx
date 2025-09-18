@@ -11,7 +11,7 @@ export const Encryption = () => {
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+        className="absolute top-0 left-0 w-full h-full object-cover -z-30"
       >
         <source src="/videos/encryption-bg.webm" type="video/webm" />
       </video>
@@ -49,61 +49,9 @@ export const Encryption = () => {
           environmentally friendly, and we will donate extra food at the end of the
           event.
         </p>
+      
 
-        <h2 className="text-4xl font-medium text-gray-100 mt-12">
-          Theme{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            &
-          </span>{" "}
-          Tracks.
-        </h2>
-
-        <p className="text-lg text-gray-300 my-5">
-          Cooper from the movie Interstellar wisely summed human fascination with space when he
-          declared, “Mankind was born on Earth. It was never meant to die here.”
-          The next century will undoubtedly see exciting innovations in space
-          exploration as a result of creative engineering solutions. As such, IEEE @
-          GT challenges you to build your own lunar space robot to demonstrate your
-          creative approach to navigating space. The competition will focus on terrain
-          navigation and interaction, including but not limited to obstacle avoidance,
-          article placement, and potential human-robot collaboration.
-          <br />
-          <br />
-          Tracks:
-          <br />
-          • Autonomous — robot is making decisions itself  
-          • Controller/Communication — team builds an RF or wired controller to operate the robot  
-          • Beginner — open opportunity for younger/inexperienced students to participate
-        </p>
-      </div>
-
-      {/* Logo + lock */}
-      <div className="absolute top-10 right-10 flex flex-col items-center">
-        <Image
-          src="/IEEE_LOGO.png"
-          alt="IEEE Logo"
-          width={50}
-          height={50}
-          className="mb-2"
-        />
-        <Image
-          src="/lock-main.png"
-          alt="Lock main"
-          width={70}
-          height={70}
-          className="z-10"
-        />
-        <div className="Welcome-box px-4 py-1 border border-[#7042F88B] opacity-90 mt-4">
-          <h1 className="text-xs">Encryption</h1>
-        </div>
-      </div>
-
-      {/* Footer text */}
-      <div className="absolute bottom-5 w-full px-5">
-        <div className="cursive text-xl font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption.
-        </div>
-      </div>
+      
     </div>
   );
 };
