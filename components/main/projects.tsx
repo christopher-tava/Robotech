@@ -9,7 +9,7 @@ export const Projects = () => {
       className="flex flex-col items-center justify-center py-20"
     >
       
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h1 className="text-[40px] font-semibold bg-clip-text bg-gradient-to-r py-20">
         Cooper from the movie Interstellar wisely summed human fascination with space when he
           declared, “Mankind was born on Earth. It was never meant to die here.”
           The next century will undoubtedly see exciting innovations in space
