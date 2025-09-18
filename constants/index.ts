@@ -161,20 +161,16 @@ export const NAV_LINKS = [
     link: "#about-me",
   },
   {
-    title: "Tracks",
+    title: "Sponsors",
     link: "#skills",
-  },
-  {
-    title: "Schedule",
-    link: "#projects",
   },
   {
     title: "FAQ",
     link: "#projects",
   },
   {
-    title: "Sponsors",
-    link: "#projects",
+    title: "APPLY NOW",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvzoEXp2FqPGn_8RbkU9X6wBSFUWS4iv_9fDyJt4bUhEChiA/viewform?usp=dialog",
   },
 ] as const;
 
