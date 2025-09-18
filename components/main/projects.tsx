@@ -8,8 +8,7 @@ export const Projects = () => {
       id="projects"
       className="flex flex-col items-center justify-center py-20"
     >
-      
-      <h1 className="text-[40px] font-semibold bg-clip-text bg-gradient-to-r py-20">
+      <h1 className="text-lg text-gray-200 mb-10">
         Cooper from the movie Interstellar wisely summed human fascination with space when he
           declared, “Mankind was born on Earth. It was never meant to die here.”
           The next century will undoubtedly see exciting innovations in space
@@ -24,8 +23,11 @@ export const Projects = () => {
           • Controller/Communication — team builds an RF or wired controller to operate the robot  
           • Beginner — open opportunity for younger/inexperienced students to participate
         
-        Schedule of Events
       </h1>
+       <h1 className="text-4xl font-medium text-white mb-4">
+          Schedule of Events
+        </h1>
+      
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         {PROJECTS.map((project) => (
           <ProjectCard
