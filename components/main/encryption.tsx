@@ -19,7 +19,7 @@ export const Encryption = () => {
           student chapter at Georgia Tech. Within the allotted 36 hours, teams of
           four individuals race to design, build, and test a robot to complete a
           set of engineering goals and competition tasks. Excellent collaboration
-          and an element of strategy will be required to maximize a team’s score.
+          and an element of strategy will be required to maximize a team score.
           Teams compete in one of several tracks differentiated by competition focus
           and experience. Products are judged by a panel of judges on the last day
           of the hackathon.
@@ -39,7 +39,7 @@ export const Encryption = () => {
         </p>
 
         <h2 className="text-[40px] font-medium text-gray-100 mt-12">
-          This Year's Theme{" "}
+          Theme{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             &
           </span>{" "}
@@ -47,7 +47,7 @@ export const Encryption = () => {
         </h2>
 
         <p className="text-lg text-gray-300 my-5 max-w-[600px] mx-auto">
-          Interstellar’s Cooper wisely summed human fascination with space when he
+           Cooper from the movie Interstellar wisely summed human fascination with space when he
           declared, “Mankind was born on Earth. It was never meant to die here.”
           The next century will undoubtedly see exciting innovations in space
           exploration as a result of creative engineering solutions. As such, IEEE @
