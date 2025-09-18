@@ -12,6 +12,10 @@ export const Projects = () => {
         Theme Overview
       </h2>
             <p className="text-base text-gray-200 mb-10 leading-relaxed max-w-3xl text-center px-6">
+
+              Theme Overview
+
+              
         Cooper from the movie <em>Interstellar</em> wisely summed human fascination
         with space when he declared, “Mankind was born on Earth. It was never meant
         to die here.” The next century will undoubtedly see exciting innovations in
