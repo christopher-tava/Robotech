@@ -83,18 +83,7 @@ export const Navbar = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="flex justify-center gap-6 mt-6">
-            {SOCIALS.map(({ link, name, icon: Icon }) => (
-              <Link
-                href={link}
-                target="_blank"
-                rel="noreferrer noopener"
-                key={name}
-              >
-                <Icon className="h-8 w-8 text-white" />
-              </Link>
-            ))}
-          </div>
+          
         </div>
       )}
     </div>
