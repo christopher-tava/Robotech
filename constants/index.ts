@@ -72,7 +72,7 @@ export const FULLSTACK_SKILL = [
   },
   {
     skill_name: "JavaScript",
-    image: "javascript.png",
+    image: "/atdc.png",
     width: 60,
     height: 60,
   },
