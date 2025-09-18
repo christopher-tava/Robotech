@@ -7,21 +7,7 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-export const SKILL_DATA = [
-    {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "javascript.png",
-    width: 60,
-    height: 60,
-  },
-
-] as const;
+export const SKILL_DATA = [] as const;
 
 export const SOCIALS = [
   {
@@ -31,62 +17,10 @@ export const SOCIALS = [
   },
 ] as const;
 
-export const FRONTEND_SKILL = [
-    {
-    skill_name: "Go",
-    image: "icon1.png",
-    width: 60,
-    height: 60,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "icon2.png",
-    width: 60,
-    height: 60,
-  },
-
-] as const;
-
-export const BACKEND_SKILL = [
-    {
-    skill_name: "Go",
-    image: "icon2.png",
-    width: 60,
-    height: 60,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "javascript.png",
-    width: 60,
-    height: 60,
-  },
-
-] as const;
-
-export const FULLSTACK_SKILL = [
-    {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "javascript.png",
-    width: 60,
-    height: 60,
-  },
-
-] as const;
-
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-] as const;
+export const FRONTEND_SKILL = [] as const;
+export const BACKEND_SKILL = [] as const;
+export const FULLSTACK_SKILL = [] as const;
+export const OTHER_SKILL = [] as const;
 
 export const PROJECTS = [
   {
@@ -99,14 +33,14 @@ export const PROJECTS = [
   {
     title: "January 24th, 2026",
     description:
-      'TBD - More information to come soon! Stay tuned for updates.',
+      "TBD - More information to come soon! Stay tuned for updates.",
     image: "/gt.png",
     link: "https://robotech2026.netlify.app",
   },
   {
     title: "January 25th, 2026",
     description:
-      'TBD - More information to come soon! Stay tuned for updates.',
+      "TBD - More information to come soon! Stay tuned for updates.",
     image: "/gt.png",
     link: "https://robotech2026.netlify.app",
   },
