@@ -10,7 +10,7 @@ import {
 export const SKILL_DATA = [
     {
     skill_name: "Go",
-    image: "gt.png",
+    image: "go.png",
     width: 60,
     height: 60,
   },
@@ -34,13 +34,13 @@ export const SOCIALS = [
 export const FRONTEND_SKILL = [
     {
     skill_name: "Go",
-    image: "/gt.png",
+    image: "/icon1.png",
     width: 60,
     height: 60,
   },
   {
     skill_name: "JavaScript",
-    image: "/gt.png",
+    image: "/icon2.png",
     width: 60,
     height: 60,
   },
@@ -50,13 +50,13 @@ export const FRONTEND_SKILL = [
 export const BACKEND_SKILL = [
     {
     skill_name: "Go",
-    image: "/gt.png",
+    image: "/icon2.png",
     width: 60,
     height: 60,
   },
   {
     skill_name: "JavaScript",
-    image: "/gt.png",
+    image: "/icon2.png",
     width: 60,
     height: 60,
   },

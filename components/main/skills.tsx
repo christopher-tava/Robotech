@@ -5,6 +5,7 @@ import {
   BACKEND_SKILL,
   FRONTEND_SKILL,
   FULLSTACK_SKILL,
+  OTHER_SKILL,
   SKILL_DATA,
 } from "@/constants";
 
