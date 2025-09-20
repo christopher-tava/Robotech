@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            IEEE @ GT - 2026 Hackathon
+            IEEE @ GT: 2026 Hackathon
           </h1>
         </motion.div>
 
@@ -46,7 +46,7 @@ export const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           Join IEEE@GT as the Robotech Hackathon returns for 2026!
-          Tenative Dates: January 23-25th, 2026.{" "}
+           January 23-25th, 2026.{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Register now
           </span>{" "}
@@ -54,12 +54,16 @@ export const HeroContent = () => {
           year! 
         </motion.p>
 
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn more
-        </motion.a>
+       <motion.a
+        variants={slideInFromLeft(1)}
+        className="py-2 text-center cursor-pointer rounded-lg max-w-[500px] bg-yellow-500 text-black"
+        href="
+https://docs.google.com/forms/d/e/1FAIpQLScvzoEXp2FqPGn_8RbkU9X6wBSFUWS4iv_9fDyJt4bUhEChiA/viewform?usp=dialog"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        APPLY HERE
+      </motion.a>
       </div>
 
       <motion.div
@@ -67,10 +71,10 @@ export const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/hero-bg.svg"
-          alt="work icons"
-          height={650}
-          width={650}
+          src="/logo_robotech.png"
+          alt="logo"
+          height={600}
+          width={600}
           draggable={false}
           className="select-none"
         />
