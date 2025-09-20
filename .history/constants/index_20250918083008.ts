@@ -93,14 +93,14 @@ export const PROJECTS = [
     title: "January 23rd, 2026",
     description:
       "TBD - More information to come soon! Stay tuned for updates.",
-    image: "/real_robotech_2026_logo.pdf",
+    image: "/gt.png",
     link: "https://robotech2026.netlify.app",
   },
   {
     title: "January 24th, 2026",
     description:
       'TBD - More information to come soon! Stay tuned for updates.',
-    image: "/real_robotech_2026_logo.pdf",
+    image: "/gt.png",
     link: "https://robotech2026.netlify.app",
   },
   {

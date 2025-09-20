@@ -18,7 +18,7 @@ export const Navbar = () => {
           className="flex items-center"
         >
           <Image
-            src="/real_robotech_2026_logo.pdf"
+            src="/real_robotech_2026_logo.png"
             alt="Logo"
             width={70}
             height={70}
