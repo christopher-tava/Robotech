@@ -177,3 +177,29 @@ export const NAV_LINKS = [
 export const LINKS = {
   sourceCode: "https://github.com/christopher-tava/robotech-website",
 };
+export const FAQ_DATA = [
+  {
+    question: "Am I eligible?",
+    answer: "Most likely yes! You just have to be a current undergrad or grad student in the Atlanta area at the time of the event. GT students will receive priority registration but other university students are welcome to apply after reading the next FAQ!"
+  },
+  {
+    question: "Is it free to participate?",
+    answer: "Yes! There is no entry fee or cost. However, if you are not at GT, you will need to arrange your own transportation to and from the event."
+  },
+  {
+    question: "What is the application process?",
+    answer: "Apply through the application Google Form until XXXX @ 11:59 pm. You will only be considered for the track you apply for and then accepted, waitlisted, or rejected for that track. Teammate requests are considered."
+  },
+  {
+    question: "What if I don't have a full team before the event?",
+    answer: "No problem! We will make available nearly all the resources you would need to be successful in your track. However, that may mean that certain parts are limited to competitors in the same track."
+  },
+  {
+    question: "Do I have to pay for parts?",
+    answer: "No! We will make available nearly all the resources you would need to be successful in your track. However, that may mean that certain parts are limited to competitors in the same track."
+  },
+  {
+    question: "Which meals do I get for free as a competitor?",
+    answer: "A Friday evening snack; breakfast, lunch and dinner on Saturday; and Sunday breakfast."
+  }
+] as const;
