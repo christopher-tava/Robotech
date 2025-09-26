@@ -20,8 +20,8 @@ export const Projects = () => {
         </h2>
         <p className="text-base text-gray-200 mb-10 leading-relaxed max-w-3xl text-center px-6">
           Cooper from the movie <em>Interstellar</em> wisely summed human fascination
-          with space when he declared, "Mankind was born on Earth. It was never meant
-          to die here." The next century will undoubtedly see exciting innovations in
+          with space when he declared, &quot;Mankind was born on Earth. It was never meant
+          to die here.&quot; The next century will undoubtedly see exciting innovations in
           space exploration as a result of creative engineering solutions. As such,
           IEEE @ GT challenges you to build your own lunar space robot to demonstrate
           your creative approach to navigating space. The competition will focus on
