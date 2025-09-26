@@ -36,7 +36,7 @@ export const SkillText = () => {
     alt="klemis kitchen logo"
     className="w-40 h-auto object-cover"
   />
-  <p className="text-white xl text-xl">
+  <p className="text-white xl text-xl font-semibold">
     <a
       href="https://star.studentlife.gatech.edu/klemis-kitchen"
       className="text-3xl text-blue-700 hover:text-blue-700 hover:underline"
