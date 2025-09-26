@@ -41,11 +41,13 @@ export const Projects = () => {
 <br />
       
 
-      
+      <h2 className="text-4xl font-medium text-white text-center mb-4">
+        Theme Overview
+      </h2>
       <FAQAccordion />
 
       <div className="mt-20 mb-10">
-        <h2 className="text-4xl font-medium text-white text-center mb-4">
+        <h2 className="text-4xl font-medium text-white mb-4">
           Theme Overview
         </h2>
         <p className="text-base text-gray-200 mb-10 leading-relaxed max-w-3xl text-center px-6">
