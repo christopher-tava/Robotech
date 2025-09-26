@@ -39,7 +39,7 @@ export const SkillText = () => {
   <p className="text-white-700 text-2xl font-semibold">
     <a
       href="https://star.studentlife.gatech.edu/klemis-kitchen"
-      className="text-3xl text-blue-700 hover:text-blue-700 hover:underline"
+      className="text-blue-700 hover:text-blue-700 hover:underline"
     >
       Klemis Kitchen:
     </a>{" "}
