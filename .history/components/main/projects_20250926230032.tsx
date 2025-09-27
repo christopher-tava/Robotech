@@ -22,12 +22,11 @@ export const Projects = () => {
   <h2 className="text-4xl font-medium text-white text-center mb-4">
     Theme Overview
   </h2>
- {/* Main Description */}
-          <div className="text-base text-gray-200 mb-10 leading-relaxed max-w-4xl mx-auto px-6">
+ <div className="text-base text-gray-200 mb-10 leading-relaxed max-w-4xl mx-auto px-6">
             <p className="mb-6">
-              Interstellar&apos;s Cooper wisely summed up human fascination with space when he declared, 
+              Interstellar's Cooper wisely summed up human fascination with space when he declared, 
               <span className="italic text-blue-300 mx-2">
-                &ldquo;Mankind was born on Earth. It was never meant to die here.&rdquo;
+                "Mankind was born on Earth. It was never meant to die here."
               </span>
             </p>
             
@@ -53,6 +52,7 @@ export const Projects = () => {
               ahead of time and understand how to maximize their point totals based on their strengths.
             </p>
           </div>
+
   <h3 className="text-2xl font-semibold text-white text-center mb-4">
     Tracks
   </h3>
