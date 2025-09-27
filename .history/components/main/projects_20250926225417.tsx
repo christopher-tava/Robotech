@@ -29,7 +29,6 @@ export const Projects = () => {
   As the event approaches, we will release a tentative point rubric for each track. Teams will receive points for each element of the robot that they build and for each task that their robot completes. Certain features and tasks will be worth more than others due to expected difficulty. However, each robot will have exactly 4 minutes to execute their features and tasks, so teams are encouraged to plan ahead of time and understand how to maximize their point totals based on their strengths.
 </p>
 
-
   <h3 className="text-2xl font-semibold text-white text-center mb-4">
     Tracks
   </h3>
