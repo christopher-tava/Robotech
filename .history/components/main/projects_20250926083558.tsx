@@ -22,7 +22,7 @@ export const Projects = () => {
   <br /><br />
 
   <strong>What is the application process?</strong><br />
-  Apply through the application Google Form until XXXX @ 11:59 pm. You will only be considered for the track you apply for and then accepted, waitlisted, or rejected for that track. Teammate requests are considered.
+  Apply through the application Google Form until October 26th @ 11:59pm EST. You will only be considered for the track you apply for and then accepted, waitlisted, or rejected for that track. Teammate requests are considered.
   <br /><br />
 
   <strong>What if I don’t have a full team before the event?</strong><br />
