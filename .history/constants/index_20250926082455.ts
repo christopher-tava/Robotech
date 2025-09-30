@@ -188,7 +188,7 @@ export const FAQ_DATA = [
   },
   {
     question: "What is the application process?",
-    answer: "Apply through the application Google Form until XXXX @ 11:59 pm. You will only be considered for the track you apply for and then accepted, waitlisted, or rejected for that track. Teammate requests are considered."
+    answer: "Apply through the application Google Form until October 26th, 2025 @ 11:59pm for priority admission and November 5th, 2025 @ 11:59pm for regular admission. You will only be considered for the track you apply for and then accepted, waitlisted, or rejected for that track. Teammate requests are considered."
   },
   {
     question: "What if I don't have a full team before the event?",
