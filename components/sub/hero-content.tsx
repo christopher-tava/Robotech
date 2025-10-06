@@ -58,7 +58,7 @@ export const HeroContent = () => {
         variants={slideInFromLeft(1)}
         className="py-2 text-center cursor-pointer rounded-lg max-w-[500px] bg-yellow-500 text-black"
         href="
-https://docs.google.com/forms/d/e/1FAIpQLScvzoEXp2FqPGn_8RbkU9X6wBSFUWS4iv_9fDyJt4bUhEChiA/viewform?usp=dialog"
+https://luma.com/suep29g0"
         target="_blank"
         rel="noopener noreferrer"
       >

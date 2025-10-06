@@ -170,7 +170,7 @@ export const NAV_LINKS = [
   },
   {
     title: "APPLY NOW",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvzoEXp2FqPGn_8RbkU9X6wBSFUWS4iv_9fDyJt4bUhEChiA/viewform?usp=dialog",
+    link: "https://luma.com/suep29g0",
   },
 ] as const;
 

@@ -22,13 +22,32 @@ export const SkillText = () => {
         </h1>
       </motion.div>
 
-      <motion.div
-        variants={slideInFromLeft(0.5)}
-        className="text-[60px] text-white font-medium mt-[10px] text-center mb-[15px]"
-      >
-        Robotech Hackathon Sponsors and Community Partners...TBA
-      </motion.div>
+      
+   <motion.div
+  variants={slideInFromLeft(0.5)}
+  className="text-[60px] text-white font-medium mt-[10px] text-center mb-[15px]"
+>
+  Robotech Hackathon Sponsors and Community Partners ... More to be Announced!
+</motion.div>
 
+<div className="flex items-start gap-4">
+  <img
+    src="/klemis.png"
+    alt="klemis kitchen logo"
+    className="w-40 h-auto object-cover"
+  />
+  <p className="text-white xl text-xl">
+    <a
+      href="https://star.studentlife.gatech.edu/klemis-kitchen"
+      className="text-3xl text-blue-700 hover:text-blue-700 hover:underline"
+    >
+      Klemis Kitchen:
+    </a>{" "}
+    A GT food pantry through STAR Services in the Student Engagement and Well-Being
+    Office. Following hackathon meals, we will donate all leftover food to Klemis
+    Kitchen to help support food-insecure students on campus.
+  </p>
+</div>
     </div>
   );
 };

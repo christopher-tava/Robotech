@@ -48,7 +48,7 @@ export const Projects = () => {
               worth more than others due to expected difficulty.
             </p>
             
-            <p className="font-semibold text-blue-300">
+            <p className="font-semibold text-yellow-300">
               However, each robot will have exactly 4 minutes to execute their features and tasks, so teams are encouraged to plan 
               ahead of time and understand how to maximize their point totals based on their strengths.
             </p>
@@ -58,9 +58,7 @@ export const Projects = () => {
   </h3>
   <ul className="list-disc list-inside text-gray-200 mt-2 text-left max-w-3xl px-6">
     <li><strong>Autonomous</strong> — The robot makes decisions by itself. Think computer vision and audio detection for navigation and interaction. </li>
-    <br></br>
-    <li><strong>Controller/Communication</strong> — team builds an RF or wired controller to control the robot. A human will control the robot&apos;s motion and decisions.</li>
-      <br></br>
+    <li><strong>Controller/Communication</strong> — team builds an RF or wired controller to control the robot. A human will control the robot's motion and decisions.</li>
     <li><strong>Beginner</strong> — open opportunity for younger or inexperienced students. Great for experimentation and learning, with no particular limits on project functionality. </li>
   </ul>
 </div>
