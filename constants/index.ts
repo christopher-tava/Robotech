@@ -169,9 +169,14 @@ export const NAV_LINKS = [
     link: "#projects",
   },
   {
+    title: "Location",  
+    link: "#location",  
+  },
+  {
     title: "APPLY NOW",
     link: "https://luma.com/suep29g0",
   },
+
 ] as const;
 
 export const LINKS = {

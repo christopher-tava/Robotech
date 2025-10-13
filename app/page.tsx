@@ -2,6 +2,7 @@ import { Encryption } from "@/components/main/encryption";
 import { Hero } from "@/components/main/hero";
 import { Projects } from "@/components/main/projects";
 import { Skills } from "@/components/main/skills";
+import { LocationMap } from "@/components/main/location-map";
 import { ScrollProgressIndicator } from "@/components/sub/scroll-progress-indicator";
 import { BackToTopButton } from "@/components/sub/back-to-top-button";
 
@@ -34,6 +35,11 @@ export default function Home() {
           {/* FAQ and Schedule Section */}
           <section id="projects">
             <Projects />
+          </section>
+
+          {/* Location Section */}
+          <section id="location">
+            <LocationMap />
           </section>
         </div>
       </main>
