@@ -75,7 +75,7 @@ export const Navbar = () => {
             width={70}
             height={70}
             draggable={false}
-            className="cursor-pointer"
+            className="w-full h-auto max-w-sm md:max-w-md lg:max-w-lg object-cover rounded-xl"
           />
           <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Robotech 2026</div>
         </button>

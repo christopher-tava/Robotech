@@ -24,7 +24,9 @@ export default function RootLayout({ children }: PropsWithChildren) {
       <body
         className={cn(
           "bg-[#030014] overflow-y-scroll overflow-x-hidden",
-          inter.className
+          "flex flex-col min-h-screen",
+          "relative z-0",
+          inter.className,
         )}
       >
         <StarsCanvas />
