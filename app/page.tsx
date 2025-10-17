@@ -44,7 +44,7 @@ export default function Home() {
           </section>
 
           {/* Schedule Event Section */}
-          <section>
+          <section id="schedule">
             <ScheduleEvent>
             </ScheduleEvent>
           </section>
