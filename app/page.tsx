@@ -5,6 +5,7 @@ import { Skills } from "@/components/main/skills";
 import { LocationMap } from "@/components/main/location-map";
 import { ScrollProgressIndicator } from "@/components/sub/scroll-progress-indicator";
 import { BackToTopButton } from "@/components/sub/back-to-top-button";
+import ScheduleEvent from "@/components/main/scheduleEvent";
 
 export default function Home() {
   return (
@@ -41,6 +42,13 @@ export default function Home() {
           <section id="location">
             <LocationMap />
           </section>
+
+          {/* Schedule Event Section */}
+          <section>
+            <ScheduleEvent>
+            </ScheduleEvent>
+          </section>
+
         </div>
       </main>
     </>
