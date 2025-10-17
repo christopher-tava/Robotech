@@ -15,7 +15,7 @@ export default function Home() {
       <BackToTopButton />
 
       <main className="h-full w-full">
-        <div className="flex flex-col md:flex-row items-center justify-center">
+        <div className="flex flex-col gap-20">
           {/* Hero Section */}
           <section id="hero">
             <Hero />
