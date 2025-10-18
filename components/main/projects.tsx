@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center py-20" 
 >
 {/* FAQ Section */}
 <h2 className="text-4xl font-medium text-white mb-8">

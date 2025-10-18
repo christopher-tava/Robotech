@@ -5,7 +5,27 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { LINKS, NAV_LINKS, SOCIALS } from "@/constants";
+import { LINKS, SOCIALS } from "@/constants";
+
+// Updated nav links with proper section IDs
+const NAV_LINKS = [
+  {
+    title: "About",
+    link: "#about",
+  },
+  {
+    title: "Sponsors",
+    link: "#skills",
+  },
+  {
+    title: "FAQ",
+    link: "#projects",
+  },
+  {
+    title: "APPLY NOW",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvzoEXp2FqPGn_8RbkU9X6wBSFUWS4iv_9fDyJt4bUhEChiA/viewform?usp=dialog",
+  },
+] as const;
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -24,14 +44,30 @@ export const Navbar = () => {
     }
   ];
 
+  const handleSmoothScroll = (href: string) => {
+    if (href.startsWith('#')) {
+      const element = document.getElementById(href.substring(1));
+      if (element) {
+        const offset = 80; // Account for fixed navbar
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }
+  };
+
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-10">
       {/* Navbar Container */}
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         {/* Logo + Name */}
-        <Link
-          href="#about-me"
-          className="flex items-center"
+        <button
+          onClick={() => handleSmoothScroll('#hero')}
+          className="flex items-center cursor-pointer"
         >
           <Image
             src="/IEEE_LOGO.png"
@@ -42,20 +78,32 @@ export const Navbar = () => {
             className="cursor-pointer"
           />
           <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Robotech 2026</div>
-        </Link>
+        </button>
 
         {/* Web Navbar */}
         <div className="hidden md:flex w-[600px] h-full flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.title}
-                href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
-              >
-                {link.title}
-              </Link>
-            ))}
+            {NAV_LINKS.map((link) => 
+              link.link.startsWith('#') ? (
+                <button
+                  key={link.title}
+                  onClick={() => handleSmoothScroll(link.link)}
+                  className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+                >
+                  {link.title}
+                </button>
+              ) : (
+                <Link
+                  key={link.title}
+                  href={link.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+                >
+                  {link.title}
+                </Link>
+              )
+            )}
             
             {/* Contact Dropdown */}
             <div className="relative">
@@ -159,16 +207,31 @@ export const Navbar = () => {
         <div className="absolute top-[65px] left-0 w-full bg-[#030014] p-5 flex flex-col items-center text-gray-300 md:hidden">
           {/* Links */}
           <div className="flex flex-col items-center gap-4">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.title}
-                href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {link.title}
-              </Link>
-            ))}
+            {NAV_LINKS.map((link) => 
+              link.link.startsWith('#') ? (
+                <button
+                  key={link.title}
+                  onClick={() => {
+                    handleSmoothScroll(link.link);
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
+                >
+                  {link.title}
+                </button>
+              ) : (
+                <Link
+                  key={link.title}
+                  href={link.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.title}
+                </Link>
+              )
+            )}
             
             {/* Contact Section in Mobile */}
             <div className="mt-4 pt-4 border-t border-[rgba(112,66,248,0.2)] text-center">
