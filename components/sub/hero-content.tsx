@@ -15,7 +15,7 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-col md:flex-row items-center justify-center px-6 md:px-20 mt-20 md:mt-40 w-full z-[20] gap-10"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -30,7 +30,7 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-4xl sm:text-5xl md:text-6xl font-bold text-white max-w-[600px]"
         >
           <span>
             Providing{" "}
@@ -47,7 +47,7 @@ export const HeroContent = () => {
         >
           Join IEEE@GT as the Robotech Hackathon returns for 2026!
            January 23-25th, 2026.{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-semibold">
             Register now
           </span>{" "}
           to secure your spot and be part of the most exciting hackathon of the
@@ -56,7 +56,7 @@ export const HeroContent = () => {
 
        <motion.a
         variants={slideInFromLeft(1)}
-        className="py-2 text-center cursor-pointer rounded-lg max-w-[500px] bg-yellow-500 text-black"
+        className="py-2 text-center cursor-pointer rounded-lg max-w-[500px] bg-yellow-500 text-black font-semibold hover:bg-yellow-400 transition duration-300 w-full md:w-auto px-6 md:px-10 flex items-center justify-center"
         href="
 https://luma.com/suep29g0"
         target="_blank"
@@ -68,7 +68,7 @@ https://luma.com/suep29g0"
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="flex justify-center md:justify-end w-full md:w-1/2 px-4 md:px-10 lg:px-20"
       >
         <Image
           src="/logo_robotech.png"
@@ -76,7 +76,7 @@ https://luma.com/suep29g0"
           height={600}
           width={600}
           draggable={false}
-          className="select-none"
+          className="flex-shrink-0 w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto object-contain rounded-xl"
         />
       </motion.div>
     </motion.div>
