@@ -31,7 +31,7 @@ const NAV_LINKS = [
   },
   {
     title: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvzoEXp2FqPGn_8RbkU9X6wBSFUWS4iv_9fDyJt4bUhEChiA/viewform",
+    link: "https://luma.com/suep29g0",
   }
 ] as const;
 
