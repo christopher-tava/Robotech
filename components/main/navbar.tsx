@@ -193,13 +193,6 @@ export const Navbar = () => {
                 )}
               </AnimatePresence>
             </div>
-            {/* Login Button - at the end */}
-            <Link
-              href="http://localhost:3000/login"
-              className="bg-[rgb(112,66,248)] hover:bg-[rgb(132,86,268)] px-4 py-2 rounded-lg text-white font-semibold transition whitespace-nowrap shadow-lg ml-3"
-            >
-              Login
-            </Link>
           </div>
         </div>
 
