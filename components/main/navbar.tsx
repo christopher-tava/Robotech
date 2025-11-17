@@ -32,7 +32,7 @@ const NAV_LINKS = [
   {
     title: "Apply Now",
     link: "https://luma.com/suep29g0",
-  }
+  },
 ] as const;
 
 export const Navbar = () => {
@@ -89,14 +89,14 @@ export const Navbar = () => {
         </button>
 
         {/* Web Navbar */}
-        <div className="hidden md:flex w-[600px] h-full flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 gap-x-2">
+        <div className="hidden md:flex w-[700px] h-full flex-row items-center justify-between md:mr-20">
+          <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 gap-x-4">
             {NAV_LINKS.map((link) => 
               link.link.startsWith('#') ? (
                 <button
                   key={link.title}
                   onClick={() => handleSmoothScroll(link.link)}
-                  className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+                  className="cursor-pointer hover:text-[rgb(112,66,248)] transition whitespace-nowrap"
                 >
                   {link.title}
                 </button>
@@ -106,7 +106,7 @@ export const Navbar = () => {
                   href={link.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+                  className="cursor-pointer hover:text-[rgb(112,66,248)] transition whitespace-nowrap"
                 >
                   {link.title}
                 </Link>
@@ -117,7 +117,7 @@ export const Navbar = () => {
             <div className="relative">
               <button
                 onClick={() => setIsContactOpen(!isContactOpen)}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition flex items-center gap-1"
+                className="cursor-pointer hover:text-[rgb(112,66,248)] transition flex items-center gap-1 whitespace-nowrap"
               >
                 Contact Us
                 <motion.svg
@@ -193,6 +193,13 @@ export const Navbar = () => {
                 )}
               </AnimatePresence>
             </div>
+            {/* Login Button - at the end */}
+            <Link
+              href="http://localhost:3000/login"
+              className="bg-[rgb(112,66,248)] hover:bg-[rgb(132,86,268)] px-4 py-2 rounded-lg text-white font-semibold transition whitespace-nowrap shadow-lg ml-3"
+            >
+              Login
+            </Link>
           </div>
         </div>
 

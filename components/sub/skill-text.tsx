@@ -74,6 +74,18 @@ export const SkillText = () => {
       </div>
     </div>
 
+    {/* GOOGLE - SECOND ROW */}
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+      <div className="flex flex-col items-center justify-center p-4 bg-[rgba(112,66,248,0.1)] rounded-lg border border-[rgba(112,66,248,0.3)]">
+        <img
+          src="/google.png"
+          alt="Google logo"
+          className="h-24 w-auto mb-2 object-contain"
+        />
+        <p className="text-center text-gray-300 text-sm">Google</p>
+      </div>
+    </div>
+
     {/* KLEMIS KITCHEN DESCRIPTION - FULL WIDTH */}
     <div className="bg-[rgba(112,66,248,0.05)] border border-[rgba(112,66,248,0.2)] rounded-lg p-4 mb-6">
       <p className="text-white text-lg">
