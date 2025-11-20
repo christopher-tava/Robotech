@@ -30,7 +30,7 @@ export const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Georgia Tech IEEE {new Date().getFullYear()} Inc. All rights Reserved. *Awards given are for participation in the competition only and has nothing to do with student employment
+          &copy; Georgia Tech IEEE {new Date().getFullYear()} Inc. All rights Reserved.
         </div>
       </div>
     </div>
