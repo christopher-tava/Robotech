@@ -42,7 +42,7 @@ export const Navbar = () => {
   const contactInfo = [
     {
       label: "Contact IEEE",
-      email: "gatechieee@gmail.com",
+      email: "gatechiee@gmail.com",
       type: "general"
     },
     {
