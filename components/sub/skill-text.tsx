@@ -98,7 +98,7 @@ export const SkillText = () => {
       </div>
     </div>
 
-    {/* GOOGLE - SECOND ROW */}
+    {/* GOOGLE AND LOCKHEED MARTIN - SECOND ROW */}
     <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
       <div className="flex flex-col items-center justify-center p-4 bg-[rgba(112,66,248,0.1)] rounded-lg border border-[rgba(112,66,248,0.3)]">
         <img
@@ -107,6 +107,16 @@ export const SkillText = () => {
           className="h-24 w-auto mb-2 object-contain"
         />
         <p className="text-center text-gray-300 text-sm">Google</p>
+      </div>
+
+      {/* LOCKHEED MARTIN */}
+      <div className="flex flex-col items-center justify-center p-4 bg-[rgba(112,66,248,0.1)] rounded-lg border border-[rgba(112,66,248,0.3)]">
+        <img
+          src="/lockheed_martin.png"
+          alt="Lockheed Martin logo"
+          className="h-24 w-auto mb-2 object-contain"
+        />
+        <p className="text-center text-gray-300 text-sm">Lockheed Martin</p>
       </div>
     </div>
 
